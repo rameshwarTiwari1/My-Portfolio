@@ -6,8 +6,15 @@ const app = express();
 const cors = require("cors");
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors({ origin: true }));
 app.use(express.json());
+app.options("*", cors()); // handle preflight request
+app.use(
+  cors({
+    origin: true,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 // app.use(bodyParser.json());
 // app.use(express.static("public"));
 

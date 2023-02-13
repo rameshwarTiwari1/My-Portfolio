@@ -31,7 +31,7 @@ const Contact = () => {
       try {
         fetchLoading();
         const response = await axios.post(
-          "https://backend-mauve-kappa.vercel.app/send",
+          "https://backend-beryl-alpha.vercel.app//send",
           {
             name,
             email,

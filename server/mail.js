@@ -1,13 +1,22 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
+const dotenv = require("dotenv");
 const app = express();
 const cors = require("cors");
-require("dotenv").config();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors({ origin: true }));
 app.use(express.json());
+// app.use(bodyParser.json());
+// app.use(express.static("public"));
+
+const path = require("path");
+require("dotenv").config({
+  path: path.join(__dirname, ".env"),
+});
+// Load environment variables from .env file
+dotenv.config();
 
 // Route for sending emails
 app.post("/send", (req, res) => {

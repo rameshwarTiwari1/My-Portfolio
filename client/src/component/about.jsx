@@ -15,7 +15,7 @@ function about() {
           </div>
           <div className='about-text'>
             <br />
-            Currently, I am in my final semester of studying BSc IT at KES
+            Currently, I am in my final semester of studying BSc.IT at KES
             Shroff College in "Mumbai", actively seeking an opportunity to
             utilize my skills in frontend and backend development and database
             management.

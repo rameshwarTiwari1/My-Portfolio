@@ -1,12 +1,10 @@
 import { dataRef } from "./firebaseConfig.js";
-import React, { useState, useEffect } from "react";
+import React, { useState, forwardRef } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import loader from "./loader.jsx";
 import "./loader.css";
-// import { Oval } from "react-loader-spinner";
-// import img from "../../assets/loading.gif";
+
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

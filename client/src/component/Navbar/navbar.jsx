@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
+import { BrowserRouter } from "react-router-dom";
+import { Link } from "react-scroll";
 import sun from "../../assets/sun1.png";
 import moon from "../../assets/moon1.png";
 import "./jquery.js";
@@ -90,14 +92,26 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href='#services' className='nav-link'>
+            <Link
+              to='service'
+              smooth={true}
+              duration={100}
+              delay={0}
+              className='nav-link'
+            >
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a href='#contact' className='nav-link'>
+            <Link
+              to='contact'
+              smooth={true}
+              duration={100}
+              delay={0}
+              className='nav-link'
+            >
               Contact
-            </a>
+            </Link>
           </li>
           <img
             id='icon'

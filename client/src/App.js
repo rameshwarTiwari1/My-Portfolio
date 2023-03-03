@@ -32,7 +32,6 @@ function App() {
             </>
           }
         ></Route>
-        {/* <Route path='/loader' element={<Loader />}></Route> */}
       </Routes>
     </BrowserRouter>
   );

@@ -15,9 +15,10 @@ function about() {
           </div>
           <div className='about-text'>
             <br />
-            I'm Currently pursuing my final sem in Bachelor of Science in
-            department of Information Technology from Kes Shroff College,
-            Mumbai. My current CGPA till now is 9.10.
+            Currently, I am in my final semester of studying BSc IT at KES
+            Shroff College in "Mumbai", actively seeking an opportunity to
+            utilize my skills in frontend and backend development and database
+            management.
             <br />
             <div className='information'>
               <div className='info-box'>
@@ -26,9 +27,9 @@ function about() {
               <div className='info-box'>
                 <span>+91 9026767618 or</span>
               </div>
-              <div className='info-box'>
+              {/* <div className='info-box'>
                 <span>+91 8976558077</span>
-              </div>
+              </div> */}
               <div className='info-box'>
                 <span>rameshwar.kes@gmail.com</span>
               </div>

@@ -4144,6 +4144,13 @@
   "resolved" "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz"
   "version" "1.0.0"
 
+"delegate-it@^3.0.1":
+  "integrity" "sha512-XU8H4pjDGBW74hFIbjdLPnvtU3HF3P9bbZvoFBSBLb5JgNaTkRb/2lvC1V+9kmZsxVR0kad4bU3rYhQ/4Ij+Gw=="
+  "resolved" "https://registry.npmjs.org/delegate-it/-/delegate-it-3.0.1.tgz"
+  "version" "3.0.1"
+  dependencies:
+    "typed-query-selector" "^2.6.1"
+
 "depd@~1.1.2":
   "integrity" "sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ=="
   "resolved" "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz"
@@ -7206,6 +7213,11 @@
     "is-docker" "^2.1.1"
     "is-wsl" "^2.2.0"
 
+"opencollective-postinstall@^2.0.2":
+  "integrity" "sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q=="
+  "resolved" "https://registry.npmjs.org/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz"
+  "version" "2.0.3"
+
 "optionator@^0.8.1":
   "integrity" "sha512-+IW9pACdk3XWmmTXG8m3upGUJst5XRGzxMRjXzAuJ1XnIFNvfhjjIuYkDvysnPQ7qzqVzLt78BCruntqRhWQbA=="
   "resolved" "https://registry.npmjs.org/optionator/-/optionator-0.8.3.tgz"
@@ -9233,6 +9245,14 @@
     "picocolors" "^1.0.0"
     "stable" "^0.1.8"
 
+"swup@^3.0.5":
+  "integrity" "sha512-MD2oVgyvKbUgWeGKjOzDQUfYLtqlQktREcR27QnzqKBSAjApLrbMTWToYrkI2ZnCXG6ApPMjsrRLArSwiJUBmw=="
+  "resolved" "https://registry.npmjs.org/swup/-/swup-3.0.5.tgz"
+  "version" "3.0.5"
+  dependencies:
+    "delegate-it" "^3.0.1"
+    "opencollective-postinstall" "^2.0.2"
+
 "symbol-tree@^3.2.4":
   "integrity" "sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw=="
   "resolved" "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz"
@@ -9497,6 +9517,11 @@
     "call-bind" "^1.0.2"
     "for-each" "^0.3.3"
     "is-typed-array" "^1.1.9"
+
+"typed-query-selector@^2.6.1":
+  "integrity" "sha512-mOnelGQ0JBbYvboX6v/3vijUkIW9L557DHVRUFQTKG352EWvW/uDN6ORlPvTPRivefqb3QbbyZgLtPmxQaxmug=="
+  "resolved" "https://registry.npmjs.org/typed-query-selector/-/typed-query-selector-2.9.2.tgz"
+  "version" "2.9.2"
 
 "typedarray-to-buffer@^3.1.5":
   "integrity" "sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q=="

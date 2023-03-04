@@ -1,5 +1,8 @@
 import React from "react";
-import homeimg from "../assets/11.png"
+
+import homeimg from "../assets/11.png";
+import "../allcompo.js";
+import "../App.css";
 
 function home() {
   return (
@@ -23,7 +26,7 @@ function home() {
           <img src={homeimg} alt='11' />
         </div>
         <div className='home-text'>
-          <span>Hello, I'm</span>
+          <span className='transition-fade'>Hello, I'm</span>
           <h1>Rameshwar Tiwari</h1>
           <h2>Bsc.IT Student</h2>
           <p>

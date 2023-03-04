@@ -2,7 +2,7 @@ import React from "react";
 
 function footer() {
   return (
-    <div>
+    <section className="reveal">
       <footer className='footer'>
         <div className='footer__addr'>
           <h1 className='footer__logo'>Rameshwar Tiwari</h1>
@@ -65,7 +65,7 @@ function footer() {
           </div>
         </div>
       </footer>
-    </div>
+    </section>
   );
 }
 

@@ -108,8 +108,10 @@ header.shadow {
 .navbar a:hover {
   color: var(--hover);
   background: var(--nav-box-color);
+  transition: 0.5s ease-out;
   /* overflow: hidden; */
   /* padding: 8px; */
+  cursor: pointer;
   box-shadow: 2px 2px 5px #888888;
 }
 /* ****************For Hamburger mneu****************************** */
@@ -203,6 +205,7 @@ header.shadow {
 }
 .btn {
   display: inline-block;
+  transition: 0.5s ease-in;
   padding: 0.9rem 1.3rem;
 }
 .btnCV {
@@ -713,3 +716,4 @@ form textarea {
 }
 
 /* =========Loader for mail========== */
+

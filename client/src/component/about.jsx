@@ -25,7 +25,7 @@ function about() {
                 <span>Rameshwar Tiwari</span>
               </div>
               <div className='info-box'>
-                <span>+91 9026767618 or</span>
+                <span>+91 9026767618</span>
               </div>
               {/* <div className='info-box'>
                 <span>+91 8976558077</span>
@@ -33,7 +33,10 @@ function about() {
               <div className='info-box'>
                 <span>rameshwar.kes@gmail.com</span>
               </div>
-              <a href='target=' className='btnCV btn-hover color-6'>
+              <a
+                href='https://drive.google.com/file/d/16s1UWMNifeyiBJmtQncG6PzP-6Kw1kx-/view?usp=share_link'
+                className='btnCV btn-hover color-6'
+              >
                 Download CV
               </a>
             </div>

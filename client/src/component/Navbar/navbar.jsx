@@ -110,7 +110,7 @@ const Navbar = () => {
           </li>
           <li>
           <a href="#services" className="nav-link">
-              Service
+             Projects
             </a>
           </li>
           <li>

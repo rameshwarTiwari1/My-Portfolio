@@ -84,7 +84,7 @@ function footer() {
           </li>
         </ul>
         <div className='legal'>
-          <p>&copy; 2024. All rights reserved. hii</p>
+          <p>&copy; 2024. All rights reserved.</p>
           &nbsp;
         </div>
       </footer>

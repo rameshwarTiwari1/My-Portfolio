@@ -54,7 +54,7 @@ const About =()=> {
                 <span>rameshwar.kes@gmail.com</span>
               </div>
               <a
-                href='https://drive.google.com/uc?export=download&id=16s1UWMNifeyiBJmtQncG6PzP-6Kw1kx-'
+                href='https://drive.google.com/uc?export=download&id=1I1zSV7D78DMtKvoGWgWKggf_BUnD1FLD'
                 className='btnCV btn-hover color-6 extra-width'
               >
                 Download Resume

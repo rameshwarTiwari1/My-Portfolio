@@ -37,7 +37,8 @@ const About =()=> {
           </div>
           <div className='about-text'>
             <br />
-           I am a Software Developer with a solid understanding of Data Structures, Algorithms, and C++, along with practical experience working with the MERN Stack (MongoDB, Express.js, React.js, Node.js). I enjoy building scalable web applications using tools like ReactJS, AWS, and databases such as MongoDB, MySQL, and Firebase. While I’m still growing my skills, I’m confident in my ability to contribute to full-stack development projects and create efficient, user-friendly software solutions. Feel free to reach out—I’m always open to connecting, collaborating, or discussing new opportunities!
+           I am a Software Developer with a solid understanding of Data Structures, Algorithms, and C++, along with practical experience working with the MERN Stack (MongoDB, Express.js, React.js, Node.js). I enjoy building scalable web applications using tools like ReactJS, AWS, and databases such as MongoDB, MySQL, and Firebase. While I’m still growing my skills, I’m confident in my ability to contribute to full-stack development projects and create efficient, user-friendly software solutions. <br></br>
+            Feel free to reach out—I’m always open to connecting, collaborating, or discussing new opportunities!
             <br />
             <div className='information'>
               {/* <div className='info-box'>

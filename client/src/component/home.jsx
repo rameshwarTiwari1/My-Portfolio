@@ -48,7 +48,7 @@ const Home=()=> {
         <div className='home-text'>
           <span className='transition-fade'>Hello, I'm</span>
           <h1>Rameshwar Tiwari</h1>
-          <h2>BSc. IT Graduate | Web Developer</h2>
+          <h2>BSc.IT Graduate | Software Developer</h2>
           <p>
             Problem Solver, Collaborative, Critical Thinker, Determined,
             Adaptive Learner.

@@ -37,7 +37,7 @@ const About =()=> {
           </div>
           <div className='about-text'>
             <br />
-            I am a Software Developer with a Bachelor of Science in Information Technology (BSc.IT) from KES Shroff College in Mumbai. Over the years, I have honed my expertise in both frontend and backend development, with a strong foundation in Data Structures, Algorithms, and C++. My practical experience includes working with the MERN Stack (MongoDB, Express.js, React.js, Node.js) to build dynamic, scalable, and responsive web applications. I have also worked with tools like ReactJS, AWS, and databases such as MongoDB, MySQL, and Firebase.
+           I am a Software Developer with a solid understanding of Data Structures, Algorithms, and C++, along with practical experience working with the MERN Stack (MongoDB, Express.js, React.js, Node.js). I enjoy building scalable web applications using tools like ReactJS, AWS, and databases such as MongoDB, MySQL, and Firebase. While I’m still growing my skills, I’m confident in my ability to contribute to full-stack development projects and create efficient, user-friendly software solutions. Feel free to reach out—I’m always open to connecting, collaborating, or discussing new opportunities!
             <br />
             <div className='information'>
               {/* <div className='info-box'>

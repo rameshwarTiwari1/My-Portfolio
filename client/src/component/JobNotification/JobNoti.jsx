@@ -18,7 +18,7 @@ function App() {
             }
 
             // Schedule the next toast 30 seconds later
-            setTimeout(showToastWithInterval, 30000);
+            setTimeout(showToastWithInterval, 60000);
         };
 
         // Start the cycle

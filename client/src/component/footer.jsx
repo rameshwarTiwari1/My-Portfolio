@@ -44,31 +44,29 @@ function footer() {
           <li className='nav__item'>
             <h2 className='nav__title'>Skills</h2>
             <div className="skillsSet">
-             <p>HTML5</p>
-            <p>CSS</p>
-            <p>JavaScript</p> 
-            <p>ReactJs</p>
-            <p>WordPress</p>
-            <p>Bootstrap</p>
+             <p>Data Structure & Algorithm</p>
+            <p>C++</p>
+            <p>JavaScript</p>
+            <p>MERN STACK</p>
+            <p>MySQL, SQL,</p>
+            <p>AWS</p>
             </div>
 
             <ul className='nav__ul'></ul>
           </li>
-          <li className='nav__item nav__item--extra'>
+{/*           <li className='nav__item nav__item--extra'> */}
             {/* <h2 className='nav__title'>Technology</h2> */}
-            <div className="skillsSet">
-            <p>NodeJs</p>
-            <p>MongoDB</p>
-            <p>MySQL</p>
-            <p>FIrebase</p>
-            <p>Figma</p>
-            <p>SEO</p>
+{/*             <div className="skillsSet">
+            <p>Data Structure & Algorithm</p>
+            <p>C++</p>
+            <p>JavaScript</p>
+            <p>MERN STACK</p>
+            <p>MySQL, SQL,</p>
             <p>AWS</p>
-            <p></p>
             </div>
             <ul className='nav__ul nav__ul--extra'></ul>
           </li>
-
+ */}
           <li className='nav__item'>
             {/* <h2 className='nav__title'></h2> */}
 
@@ -84,7 +82,7 @@ function footer() {
           </li>
         </ul>
         <div className='legal'>
-          <p>&copy; 2024. All rights reserved.</p>
+          <p>&copy; 2025. All rights reserved.</p>
           &nbsp;
         </div>
       </footer>

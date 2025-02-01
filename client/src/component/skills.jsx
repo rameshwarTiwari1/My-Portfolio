@@ -34,28 +34,28 @@ const Skills=()=> {
         <div className='skills-container'>
           <div className='bars'>
             <div className='bars-box'>
-              <h3>HTML</h3>
-              <span>95%</span>
+              <h3>DSA</h3>
+              <span>90%</span>
               <div className='light-bar'></div>
               <div className='percent-bar html-bar'></div>
             </div>
 
             <div className='bars-box'>
-              <h3>CSS</h3>
-              <span>84%</span>
+              <h3>C++</h3>
+              <span>80%</span>
               <div className='light-bar'></div>
               <div className='percent-bar css-bar'></div>
             </div>
 
             <div className='bars-box'>
               <h3>JavaScript</h3>
-              <span>75%</span>
+              <span>95%</span>
               <div className='light-bar'></div>
               <div className='percent-bar js-bar'></div>
             </div>
 
             <div className='bars-box'>
-              <h3>ReactJs</h3>
+              <h3>MERN-STACK</h3>
               <span>85%</span>
               <div className='light-bar'></div>
               <div className='percent-bar react-bar'></div>

@@ -37,11 +37,7 @@ const About =()=> {
           </div>
           <div className='about-text'>
             <br />
-            I’m Rameshwar Tiwari, a dedicated web developer with a BSc.IT degree from KES Shroff College in Mumbai.
-            I’ve been refining my skills in both frontend and backend development,
-             working on various projects that showcase my ability to create dynamic and 
-             responsive web applications. One of my notable projects involved developing a 
-             blockchain-based application using React.js and other modern web frameworks.
+            I am a Software Developer with a Bachelor of Science in Information Technology (BSc.IT) from KES Shroff College in Mumbai. Over the years, I have honed my expertise in both frontend and backend development, with a strong foundation in Data Structures, Algorithms, and C++. My practical experience includes working with the MERN Stack (MongoDB, Express.js, React.js, Node.js) to build dynamic, scalable, and responsive web applications. I have also worked with tools like ReactJS, AWS, and databases such as MongoDB, MySQL, and Firebase.
             <br />
             <div className='information'>
               {/* <div className='info-box'>
